@@ -5,4 +5,4 @@ It is a multilingual website.
 This tool helps bridge the gap between legal professionals and users seeking legal advice.
 
 Way to open the file?? 
-   To see the project file just go open the minor02 folder
+   To see the project file just open the minor02-main folder
