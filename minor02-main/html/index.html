@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Law Firm</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                        class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Case Study</a></li>
+                    <li><a href="/html/main.html">Enquiry</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="waves-effect waves-light btn btn-signin" href="/html/login.html">Sign
+                            In</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Case Study</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="waves-effect waves-light btn btn-signin">Sign
+                    In</a></li>
+            <li><a class="waves-effect waves-light btn btn-login">Login</a></li>
+        </ul>
+        <!-- law firm code -->
+
+        <header>
+            <h1>ABC Law Firm</h1>
+            <p>Your Trusted Legal Advisors</p>
+        </header>
+
+        <div class="container">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                  <img src="/img/4-Main-Types-of-Law.jpg" alt="Slide 1">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/img/law1.jpg" alt="Slide 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/img/Laws-Rights.jpg" alt="Slide 3">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/img/services-law-img.jpg" alt="Slide 4">
+                </div>
+              </div>
+
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="material-icons large">gavel</i>
+                    <h3>Legal Consultation</h3>
+                    <p>We provide expert legal consultation for various legal
+                        matters.</p>
+                </div>
+                <div class="service">
+                    <i class="material-icons large">account_balance</i>
+                    <h3>Legal Representation</h3>
+                    <p>Our experienced attorneys will represent you in court
+                        with dedication.</p>
+                </div>
+                <div class="service">
+                    <i class="material-icons large">assignment</i>
+                    <h3>Contract Drafting</h3>
+                    <p>Need a contract drafted? We've got you covered with our
+                        professional drafting services.</p>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <h2>Testimonials</h2>
+                <div class="testimonial">
+                    <p>"ABC Law Firm helped me win a difficult case. Their expertise and dedication are unmatched. Highly recommended!"</p>
+                    <p>- John Doe</p>
+                </div>
+                <div class="testimonial">
+                    <p>"I'm grateful for the legal advice provided by ABC Law Firm. They guided me through the process and achieved a positive outcome."</p>
+                    <p>- Jane Smith</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="input-field">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea id="message"
+                            class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit"
+                        name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 ABC Law Firm. All rights reserved.</p>
+        </footer>
+
+        <script src="/js/script.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.carousel');
+      var instances = M.Carousel.init(elems);
+    });
+  </script>
+
+        <!-- navigation bar code -->
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+    </body>
+</html>
